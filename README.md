@@ -1,29 +1,7 @@
-# test
+# Vue项目模板目录结构 #
 
-## Project setup
-```
-yarn install
-```
+![](https://raw.githubusercontent.com/whjin/images-save/master/vue-boilerplate/vue-boilerplate.jpg)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+|目录|说明|
+|----|----|
+|`build`|
