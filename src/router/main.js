@@ -26,8 +26,10 @@ const Routers = [
   }
 ];
 
-export const RouterConfig = {
+const RouterConfig = {
 //  使用 HTML5 的 history 路由模式
   mode: 'history',
   routes: Routers
 };
+
+export default {RouterConfig};

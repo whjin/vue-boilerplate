@@ -11,7 +11,16 @@ Vue.use(VueRouter);
 
 const router = new VueRouter(RouterConfig);
 
-const store = new Vuex.Store({});
+const store = new Vuex.Store({
+  state: {
+    count: 0
+  },
+  mutations: {
+    increment(state, params) {
+      state.count += params.count
+    }
+  }
+});
 
 new Vue({
   router,
